@@ -24,7 +24,7 @@
  *
  * Cheyenne von Kostka editing stuff 3.16.17
  *
- *
+ * Cheyenne von Kostka editing the save function for images 3.21.17
  *
  */
 /*jshint
@@ -74,7 +74,7 @@ define( [ "yasmf", "app/models/noteStorageSingleton",
       self._note.textContents = self._contentsEditor.value;
 	 var poo  = ((document.getElementById("status")).options[(document.getElementById("status")).selectedIndex].value).toString();
 	if (poo == "Follow")	
-		{self._note._status = "push-pin-transparent";} // Changed so that the follow up shows up as I would like it to
+		{self._note._status = "push-pin-transparent";} // changed so image name is there
 	else if (poo == "Archive")
 	{self._note._status = "file-cabinet-transparent";}
 	

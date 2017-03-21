@@ -25,7 +25,7 @@
  * Cheyenne von Kostka editing 3.16.17
  * Status functionality works
  *
- *
+ * Cheyenne von Kostka adding default image to status 3.21.17
  */
 /*jshint
          asi:true,
@@ -138,7 +138,7 @@ define( [ "yasmf" ], function( _y ) {
 	 * Cheyenne got the status working I think 3.16.17
 	 *
      */
-    self._status = "Icon_6-512";
+    self._status = "Icon_6-512"; // default image name
     self.getStatus = function() {
 	
       return self._status;
